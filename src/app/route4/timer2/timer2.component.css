@@ -1,0 +1,13 @@
+.box{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(27, 26, 27);
+}
+
+.amount{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(80, 71, 59);
+}

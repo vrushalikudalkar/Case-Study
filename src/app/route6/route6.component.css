@@ -1,0 +1,29 @@
+#divEle{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(12, 212, 212, 0.795);
+    border: 1px solid rgb(128, 121, 121);
+    margin-bottom: 10px;
+}
+
+#button{
+    background-color: rgb(196, 145, 145);
+    height: 20px;
+    width: 60px;
+    align-items: center;
+    color: black;
+    font-size:small;
+    margin-left: 70px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+#main{
+    background-color: rgb(196, 145, 145);
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    color: black;
+    font-size: larger;
+    border-radius: 20px;
+}

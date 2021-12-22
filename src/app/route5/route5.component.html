@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th (click)="order($event)">Name</th>
+        <th (click)="order($event)">Class</th>
+        <th (click)="order($event)" #section>Section</th>
+        <th (click)="order($event)" #sub1>Sub1</th>
+        <th (click)="order($event)" #sub2>Sub2</th>
+        <th (click)="order($event)" #sub3>Sub3</th>
+    </tr>
+    <tr *ngFor="let data of studentMarks">
+        <td>{{data.Name}}</td>
+        <td>{{data.Class}}</td>
+        <td>{{data.Section}}</td>
+        <td>{{data.Sub1}}</td>
+        <td>{{data.Sub2}}</td>
+        <td>{{data.Sub3}}</td>
+    </tr>
+</table>

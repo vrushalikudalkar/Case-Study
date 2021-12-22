@@ -1,0 +1,6 @@
+<button id="main" (click)="onAddData()">Add</button>
+
+<div id="divEle" *ngFor="let divdata of data; let i=index">
+    <button id="button" (click)="clicked($event)">{{i}}</button>
+</div>
+

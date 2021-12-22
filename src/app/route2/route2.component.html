@@ -1,0 +1,30 @@
+
+<button (click) = "listview()"><i class="fa fa-bars"></i></button>
+
+<button (click) = "gridview()"><i class="fa fa-th-large"></i></button>
+
+<select name="products" id="products" (change)="selected($event)">
+    <option> Price: Low to High</option>
+    <option value="low">Low</option>
+    <option value="high" >High</option>
+</select>
+
+
+<div class="grid-container" *ngIf="prodGrid">
+    <div class="grid-item" *ngFor="let a of prodGrid">
+        <h5>Id :{{a.id}} </h5>  
+        <h5>UserId: {{a.userId}} </h5>   
+        <h5>Title: {{a.title}}</h5>
+    </div>
+</div>
+<div class="list-container" *ngIf="prodList">
+    <div class="list-item" *ngFor="let a of prodList">
+        <h5>Id :{{a.id}} </h5>  
+        <h5>UserId: {{a.userId}} </h5>   
+        <h5>Title: {{a.title}}</h5>
+    </div>
+</div>
+
+
+
+  
